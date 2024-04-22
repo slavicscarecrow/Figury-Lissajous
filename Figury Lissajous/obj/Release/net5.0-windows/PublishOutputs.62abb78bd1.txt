@@ -1,0 +1,5 @@
+C:\Users\Matylda\Desktop\Pulpit\Figury Lissajous.exe
+C:\Users\Matylda\Desktop\Pulpit\Figury Lissajous.dll
+C:\Users\Matylda\Desktop\Pulpit\Figury Lissajous.deps.json
+C:\Users\Matylda\Desktop\Pulpit\Figury Lissajous.runtimeconfig.json
+C:\Users\Matylda\Desktop\Pulpit\Figury Lissajous.pdb

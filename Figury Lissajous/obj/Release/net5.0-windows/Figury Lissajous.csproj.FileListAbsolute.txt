@@ -1,0 +1,18 @@
+C:\Users\Matylda\OneDrive\Figury Lissajous\bin\Release\net5.0-windows\Figury Lissajous.exe
+C:\Users\Matylda\OneDrive\Figury Lissajous\bin\Release\net5.0-windows\Figury Lissajous.deps.json
+C:\Users\Matylda\OneDrive\Figury Lissajous\bin\Release\net5.0-windows\Figury Lissajous.runtimeconfig.json
+C:\Users\Matylda\OneDrive\Figury Lissajous\bin\Release\net5.0-windows\Figury Lissajous.runtimeconfig.dev.json
+C:\Users\Matylda\OneDrive\Figury Lissajous\bin\Release\net5.0-windows\Figury Lissajous.dll
+C:\Users\Matylda\OneDrive\Figury Lissajous\bin\Release\net5.0-windows\ref\Figury Lissajous.dll
+C:\Users\Matylda\OneDrive\Figury Lissajous\bin\Release\net5.0-windows\Figury Lissajous.pdb
+C:\Users\Matylda\OneDrive\Figury Lissajous\obj\Release\net5.0-windows\Figury Lissajous.csproj.AssemblyReference.cache
+C:\Users\Matylda\OneDrive\Figury Lissajous\obj\Release\net5.0-windows\Figury_Lissajous.Form1.resources
+C:\Users\Matylda\OneDrive\Figury Lissajous\obj\Release\net5.0-windows\Figury Lissajous.csproj.GenerateResource.cache
+C:\Users\Matylda\OneDrive\Figury Lissajous\obj\Release\net5.0-windows\Figury Lissajous.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matylda\OneDrive\Figury Lissajous\obj\Release\net5.0-windows\Figury Lissajous.AssemblyInfoInputs.cache
+C:\Users\Matylda\OneDrive\Figury Lissajous\obj\Release\net5.0-windows\Figury Lissajous.AssemblyInfo.cs
+C:\Users\Matylda\OneDrive\Figury Lissajous\obj\Release\net5.0-windows\Figury Lissajous.csproj.CoreCompileInputs.cache
+C:\Users\Matylda\OneDrive\Figury Lissajous\obj\Release\net5.0-windows\Figury Lissajous.dll
+C:\Users\Matylda\OneDrive\Figury Lissajous\obj\Release\net5.0-windows\ref\Figury Lissajous.dll
+C:\Users\Matylda\OneDrive\Figury Lissajous\obj\Release\net5.0-windows\Figury Lissajous.pdb
+C:\Users\Matylda\OneDrive\Figury Lissajous\obj\Release\net5.0-windows\Figury Lissajous.genruntimeconfig.cache
