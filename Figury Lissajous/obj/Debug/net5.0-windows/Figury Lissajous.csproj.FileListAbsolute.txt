@@ -16,3 +16,21 @@ C:\Users\Matylda\OneDrive\Figury Lissajous\obj\Debug\net5.0-windows\ref\Figury L
 C:\Users\Matylda\OneDrive\Figury Lissajous\obj\Debug\net5.0-windows\Figury Lissajous.pdb
 C:\Users\Matylda\OneDrive\Figury Lissajous\obj\Debug\net5.0-windows\Figury Lissajous.genruntimeconfig.cache
 C:\Users\Matylda\OneDrive\Figury Lissajous\obj\Debug\net5.0-windows\refint\Figury Lissajous.dll
+C:\Projects\Figury-Lissajous\Figury Lissajous\bin\Debug\net5.0-windows\Figury Lissajous.exe
+C:\Projects\Figury-Lissajous\Figury Lissajous\bin\Debug\net5.0-windows\Figury Lissajous.deps.json
+C:\Projects\Figury-Lissajous\Figury Lissajous\bin\Debug\net5.0-windows\Figury Lissajous.runtimeconfig.json
+C:\Projects\Figury-Lissajous\Figury Lissajous\bin\Debug\net5.0-windows\Figury Lissajous.runtimeconfig.dev.json
+C:\Projects\Figury-Lissajous\Figury Lissajous\bin\Debug\net5.0-windows\Figury Lissajous.dll
+C:\Projects\Figury-Lissajous\Figury Lissajous\bin\Debug\net5.0-windows\Figury Lissajous.pdb
+C:\Projects\Figury-Lissajous\Figury Lissajous\obj\Debug\net5.0-windows\Figury Lissajous.csproj.GenerateResource.cache
+C:\Projects\Figury-Lissajous\Figury Lissajous\obj\Debug\net5.0-windows\Figury Lissajous.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Figury-Lissajous\Figury Lissajous\obj\Debug\net5.0-windows\Figury Lissajous.AssemblyInfoInputs.cache
+C:\Projects\Figury-Lissajous\Figury Lissajous\obj\Debug\net5.0-windows\Figury Lissajous.AssemblyInfo.cs
+C:\Projects\Figury-Lissajous\Figury Lissajous\obj\Debug\net5.0-windows\Figury Lissajous.csproj.CoreCompileInputs.cache
+C:\Projects\Figury-Lissajous\Figury Lissajous\obj\Debug\net5.0-windows\Figury Lissajous.sourcelink.json
+C:\Projects\Figury-Lissajous\Figury Lissajous\obj\Debug\net5.0-windows\Figury Lissajous.dll
+C:\Projects\Figury-Lissajous\Figury Lissajous\obj\Debug\net5.0-windows\refint\Figury Lissajous.dll
+C:\Projects\Figury-Lissajous\Figury Lissajous\obj\Debug\net5.0-windows\Figury Lissajous.pdb
+C:\Projects\Figury-Lissajous\Figury Lissajous\obj\Debug\net5.0-windows\Figury Lissajous.genruntimeconfig.cache
+C:\Projects\Figury-Lissajous\Figury Lissajous\obj\Debug\net5.0-windows\ref\Figury Lissajous.dll
+C:\Projects\Figury-Lissajous\Figury Lissajous\obj\Debug\net5.0-windows\Figury_Lissajous.Lissajous.resources

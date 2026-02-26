@@ -10,36 +10,36 @@ using System.Windows.Forms;
 
 namespace Figury_Lissajous
 {
-    public partial class Form1 : Form
+    public partial class Lissajous : Form
     {
         static int x_center, y_center;
-        static int nowy_x, nowy_y;
-        static int stary_x, stary_y;
+        static int new_x, new_y;
+        static int old_x, old_y;
         static int t = 0;
 
-        Pen mojePioro = new Pen(Color.MediumVioletRed);
+        Pen myPen = new Pen(Color.MediumVioletRed);
         Graphics g = null;
 
-        public Form1()
+        public Lissajous()
         {
             InitializeComponent();
             x_center = panel1.Width / 2;
             y_center = panel1.Height / 2;
-            stary_x = x_center;
-            stary_y = y_center;
+            old_x = x_center;
+            old_y = y_center;
         }
-        void RysujPunkt()
+        void DrawPoint()
         {
             Point[] points =
             {
                 new Point(x_center, y_center),
                 new Point(0,0)
             };
-            g.DrawLines(mojePioro, points);
+            g.DrawLines(myPen, points);
         }
-        double Sinus(int amplituda, int czestotliwosc, int przesuniecie, int czas)
+        double Sinus(int amplitude, int frequency, int shift, int time)
         {
-            return amplituda * Math.Sin(2 * Math.PI * czestotliwosc* 0.01 * czas + (przesuniecie*0.01745329252));
+            return amplitude * Math.Sin(2 * Math.PI * frequency* 0.01 * time + (shift*0.01745329252));
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -49,26 +49,31 @@ namespace Figury_Lissajous
 
         private void button1_Click(object sender, EventArgs e)
         {
+            if (button1.Text == "Start")
+            {
+                button1.Text = "Stop";
+            }
+            else button1.Text = "Start";
             timer1.Enabled = !timer1.Enabled;
         }
 
-        private void Rysuj(object sender, EventArgs e)
+        private void Draw(object sender, EventArgs e)
         {
  
-            nowy_x = (int)Sinus(hScrollBar4.Value, hScrollBar6.Value, hScrollBar5.Value, t)+x_center;
-            nowy_y = (int)Sinus(hScrollBar3.Value, hScrollBar1.Value, hScrollBar2.Value, t)+y_center;
+            new_x = (int)Sinus(hScrollBar4.Value, hScrollBar6.Value, hScrollBar5.Value, t)+x_center;
+            new_y = (int)Sinus(hScrollBar3.Value, hScrollBar1.Value, hScrollBar2.Value, t)+y_center;
             Point[] points =
            {
-                new Point(stary_x, stary_y),
-                new Point(nowy_x,nowy_y)
+                new Point(old_x, old_y),
+                new Point(new_x,new_y)
             };
-            g.DrawLines(mojePioro, points);
-            stary_x = nowy_x;
-            stary_y = nowy_y;
+            g.DrawLines(myPen, points);
+            old_x = new_x;
+            old_y = new_y;
             t++;
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void Lissajous_Load(object sender, EventArgs e)
         {
 
         }
@@ -113,14 +118,14 @@ namespace Figury_Lissajous
 
         }
 
-        private void Wymaz_Click(object sender, EventArgs e)
+        private void Erase_Click(object sender, EventArgs e)
         {
             panel1.Refresh();
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
-            mojePioro.Width = 5;
+            myPen.Width = 5;
             g = panel1.CreateGraphics();
         }
     }

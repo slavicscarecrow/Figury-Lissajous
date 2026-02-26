@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Figury Lissajous")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ea02c8358bab8aef3aee065b172cdd92ba0370ac")]
 [assembly: System.Reflection.AssemblyProductAttribute("Figury Lissajous")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Figury Lissajous")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

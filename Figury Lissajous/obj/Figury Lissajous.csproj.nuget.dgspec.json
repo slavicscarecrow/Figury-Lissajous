@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Matylda\\OneDrive\\Figury Lissajous\\Figury Lissajous.csproj": {}
+    "C:\\Projects\\Figury-Lissajous\\Figury Lissajous\\Figury Lissajous.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Matylda\\OneDrive\\Figury Lissajous\\Figury Lissajous.csproj": {
+    "C:\\Projects\\Figury-Lissajous\\Figury Lissajous\\Figury Lissajous.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Matylda\\OneDrive\\Figury Lissajous\\Figury Lissajous.csproj",
+        "projectUniqueName": "C:\\Projects\\Figury-Lissajous\\Figury Lissajous\\Figury Lissajous.csproj",
         "projectName": "Figury Lissajous",
-        "projectPath": "C:\\Users\\Matylda\\OneDrive\\Figury Lissajous\\Figury Lissajous.csproj",
-        "packagesPath": "C:\\Users\\Matylda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Matylda\\OneDrive\\Figury Lissajous\\obj\\",
+        "projectPath": "C:\\Projects\\Figury-Lissajous\\Figury Lissajous\\Figury Lissajous.csproj",
+        "packagesPath": "C:\\Users\\matyl\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\Figury-Lissajous\\Figury Lissajous\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Matylda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\matyl\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -39,7 +39,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net5.0-windows7.0": {
@@ -55,24 +61,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[5.0.17, 5.0.17]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -81,7 +69,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311\\RuntimeIdentifierGraph.json"
         }
       }
     }

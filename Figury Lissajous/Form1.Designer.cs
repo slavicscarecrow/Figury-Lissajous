@@ -1,7 +1,7 @@
 ﻿
 namespace Figury_Lissajous
 {
-    partial class Form1
+    partial class Lissajous
     {
         /// <summary>
         ///  Required designer variable.
@@ -45,7 +45,7 @@ namespace Figury_Lissajous
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.Wymaz = new System.Windows.Forms.Button();
+            this.Erase = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -53,22 +53,23 @@ namespace Figury_Lissajous
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.LavenderBlush;
-            this.panel1.Location = new System.Drawing.Point(64, 49);
+            this.panel1.Location = new System.Drawing.Point(40, 40);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(913, 913);
+            this.panel1.Size = new System.Drawing.Size(1020, 1020);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
+            this.label1.AutoSize = false;
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label1.Font = new System.Drawing.Font("Georgia", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.Color.MediumVioletRed;
-            this.label1.Location = new System.Drawing.Point(1388, 111);
+            this.label1.Location = new System.Drawing.Point(1100, 111);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(210, 32);
+            this.label1.Size = new System.Drawing.Size(780, 32);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Parametry osi Y";
+            this.label1.Text = "Y Axis Parameters";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
@@ -79,7 +80,7 @@ namespace Figury_Lissajous
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(118, 21);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Częstotliwość";
+            this.label2.Text = "Frequency";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
@@ -90,7 +91,7 @@ namespace Figury_Lissajous
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(170, 21);
             this.label3.TabIndex = 3;
-            this.label3.Text = "Przesunięcie fazowe";
+            this.label3.Text = "Phase shift";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
@@ -101,7 +102,7 @@ namespace Figury_Lissajous
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(94, 21);
             this.label4.TabIndex = 4;
-            this.label4.Text = "Amplituda";
+            this.label4.Text = "Amplitude";
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // hScrollBar1
@@ -169,7 +170,7 @@ namespace Figury_Lissajous
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(94, 21);
             this.label5.TabIndex = 11;
-            this.label5.Text = "Amplituda";
+            this.label5.Text = "Amplitude";
             this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label6
@@ -180,7 +181,7 @@ namespace Figury_Lissajous
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(170, 21);
             this.label6.TabIndex = 10;
-            this.label6.Text = "Przesunięcie fazowe";
+            this.label6.Text = "Phase shift";
             // 
             // label7
             // 
@@ -190,36 +191,37 @@ namespace Figury_Lissajous
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(118, 21);
             this.label7.TabIndex = 9;
-            this.label7.Text = "Częstotliwość";
+            this.label7.Text = "Frequency";
             this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // label8
             // 
-            this.label8.AutoSize = true;
+            this.label8.AutoSize = false;
+            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label8.Font = new System.Drawing.Font("Georgia", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label8.ForeColor = System.Drawing.Color.MediumVioletRed;
-            this.label8.Location = new System.Drawing.Point(1388, 468);
+            this.label8.Location = new System.Drawing.Point(1100, 468);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(213, 32);
+            this.label8.Size = new System.Drawing.Size(780, 32);
             this.label8.TabIndex = 8;
-            this.label8.Text = "Parametry osi X";
+            this.label8.Text = "X Axis Parameters";
             // 
-            // Wymaz
+            // Erase
             // 
-            this.Wymaz.BackColor = System.Drawing.Color.PaleVioletRed;
-            this.Wymaz.Font = new System.Drawing.Font("Georgia", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Wymaz.Location = new System.Drawing.Point(1516, 893);
-            this.Wymaz.Name = "Wymaz";
-            this.Wymaz.Size = new System.Drawing.Size(289, 69);
-            this.Wymaz.TabIndex = 15;
-            this.Wymaz.Text = "Wymaż";
-            this.Wymaz.UseVisualStyleBackColor = false;
-            this.Wymaz.Click += new System.EventHandler(this.Wymaz_Click);
+            this.Erase.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.Erase.Font = new System.Drawing.Font("Georgia", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Erase.Location = new System.Drawing.Point(1516, 893);
+            this.Erase.Name = "Erase";
+            this.Erase.Size = new System.Drawing.Size(289, 69);
+            this.Erase.TabIndex = 15;
+            this.Erase.Text = "Erase";
+            this.Erase.UseVisualStyleBackColor = false;
+            this.Erase.Click += new System.EventHandler(this.Erase_Click);
             // 
             // timer1
             // 
             this.timer1.Interval = 2;
-            this.timer1.Tick += new System.EventHandler(this.Rysuj);
+            this.timer1.Tick += new System.EventHandler(this.Draw);
             // 
             // button1
             // 
@@ -229,18 +231,18 @@ namespace Figury_Lissajous
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(289, 69);
             this.button1.TabIndex = 16;
-            this.button1.Text = "Start/Stop";
+            this.button1.Text = "Start";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // Form1
+            // Lissajous
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(1898, 1024);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.Wymaz);
+            this.Controls.Add(this.Erase);
             this.Controls.Add(this.hScrollBar4);
             this.Controls.Add(this.hScrollBar5);
             this.Controls.Add(this.hScrollBar6);
@@ -256,9 +258,9 @@ namespace Figury_Lissajous
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
-            this.Name = "Form1";
-            this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Name = "Lissajous";
+            this.Text = "Lissajous";
+            this.Load += new System.EventHandler(this.Lissajous_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -281,7 +283,7 @@ namespace Figury_Lissajous
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Button Wymaz;
+        private System.Windows.Forms.Button Erase;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Button button1;
     }
