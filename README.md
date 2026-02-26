@@ -1,11 +1,9 @@
-# Figury Lissajous
+# Lissajous Curves
 
-![Lissajous](https://github.com/user-attachments/assets/0306bad3-5c0a-4016-a765-0b397c1d365a)
+![Uploading Lissajous.gif…]()
 
-Aplikacja do kreślenia figur Lissajous oraz składania drgań harmonicznych.
+A simple graphic calculator used to draw Lissajous Curves. Made in C# on .NET framework as a part of my _"Śląskie - Inwestujemy w talenty"_ scholarship.
 
-Jeśli interesuje Cię sama aplikacja, to folder "Run" jest dla Ciebie. By zobaczyć kod źródłowy, przejrzyj folder "Figury Lissajous".
-
-`Uwaga: do uruchomienia aplikacji potrzebny jest .NET 5.0`
+`Disclaimer: this app was built with .NET 5.0 and requires it to work!`
 
 
